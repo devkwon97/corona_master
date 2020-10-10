@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>체크인샵 - 전자명부</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/grid.min.css" />
+  <link rel="stylesheet" href="/static/css/dashboard.css" />
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+          <div class="menu">
+            <nav>
+              <div class="menu-title">
+                <div class="logo-img"></div>
+                <div>서비스명</div>
+              </div>
+              <ul class="menu-list">
+                <li>대시보드</li>
+                <li>화이트 보드</li>
+                <li>고객명부</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-12 col-md-10">
+          <header class="header">
+            <h3>대시보드</h3>
+            <p>매장 오픈시 고객들과 실시간으로 소통할 수 있는 공간입니다.</p>
+            <div class="person-img"></div>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="main-content">
+                  <div class="contanier">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="visited">
+                          <p>오늘의 방문자</p>
+                          <p class="visited-count">999</p>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="alarm-setting">
+                          <h5>알림</h5>
+                          <ul>
+                            <li>위험 고객 입장</li>
+                            <li>화이트보드 새글</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="current-visit">
+                    <h5>입장 현황</h5>
+                    <div>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="send-message">
+                  <h5>방문 고객에게 메시지 보내기</h5>
+                  <div>
+      
+                  </div>
+                  <form action="">
+                    <input class="message" type="text" />
+                    <input class="fill-button" type="submit" value="메시지 보내기" />
+                  </form>
+              </div>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
