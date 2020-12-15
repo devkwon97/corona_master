@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,8 +20,8 @@
             <div class="login-header">
                 <div class="side-bar">
                     <div class="logo-img"></div>
-                    <p>매장 방문객 대상<br/>
-                        비대면 신뢰 구축 솔루션<br/>
+                    <p>체크인샵<br/>
+                        점주 관리자 페이지<br/>
                     </p>
                 </div>
             </div>
@@ -34,7 +35,7 @@
                         </div>
                     </div>
                     <div class="login-desc">
-                        <form class="login-form" action="/login" method="post">
+                        <form class="login-form" action="login" method="post">
                             <div class="login-inform">
                                 <input class="input-text input-id" type="text" id="id" name="id" placeholder="아이디" required/>
                                 <input class="input-text input-pw" type="password" id="password" name="password" placeholder="비밀번호" required/>

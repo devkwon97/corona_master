@@ -42,7 +42,7 @@ p{
   height: 48px;
   background-color: #0d56fe;
   color: #fff;
-  letter-spacing: 0.18;
+  letter-spacing: 0.18em;
   font-weight: 500;
   border: none;
   border-radius: 8px;
@@ -99,8 +99,7 @@ nav .menu-list{
   font-size: 20px;
 }
 
-.header .person-img{
-  background-image: url("../../assets/점주프로필.png");
+.header.person-img{
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -213,7 +212,7 @@ form .message{
   }
 
   .menu{
-    display: visible;
+    /* display: compact; */
   }
 
   nav{
@@ -250,3 +249,12 @@ form .message{
   margin-left: auto; 
 }
 
+.customer-list ul{
+  display: flex;
+  justify-content: center;
+}
+
+.customer-list li{
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
